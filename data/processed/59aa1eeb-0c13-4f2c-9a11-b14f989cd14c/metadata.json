@@ -1,0 +1,13 @@
+{
+  "dataset_id": "59aa1eeb-0c13-4f2c-9a11-b14f989cd14c",
+  "source_filename": "corpus.jsonl",
+  "status": "completed",
+  "document_count": 2951,
+  "chunk_count": 18080,
+  "infobox_chunks": 2934,
+  "text_chunks": 11951,
+  "table_chunks": 3195,
+  "approx_tokens": 5104367,
+  "chunking_version": "1.0",
+  "processing_duration_seconds": 21.562
+}

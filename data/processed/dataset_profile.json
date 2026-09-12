@@ -1,0 +1,128 @@
+{
+  "dataset": {
+    "path": "C:\\Users\\HP\\Desktop\\agentic-graphrag\\agentic-graphrag-tigergraph\\data\\raw\\corpus.jsonl",
+    "total_records": 2951,
+    "malformed_lines": 0
+  },
+  "approx_tokens": {
+    "count": 2951,
+    "total": 5466414,
+    "min": 111,
+    "max": 26874,
+    "mean": 1852.3937648254828,
+    "median": 1032
+  },
+  "text_characters": {
+    "count": 2951,
+    "min": 444,
+    "max": 107498,
+    "mean": 7411.08471704507,
+    "median": 4131
+  },
+  "missing_fields": {},
+  "duplicates": {
+    "doc_ids": {},
+    "titles": {},
+    "wikidata_qids": {}
+  },
+  "empty_text_documents": [],
+  "structure": {
+    "documents_with_infobox": 2934,
+    "documents_with_headings": 0,
+    "documents_with_table_like_content": 137
+  },
+  "longest_documents": [
+    {
+      "doc_id": "Q167726",
+      "title": "Jurassic Park",
+      "approx_tokens": 26874,
+      "characters": 107498
+    },
+    {
+      "doc_id": "Q4496",
+      "title": "Mitt Romney",
+      "approx_tokens": 25268,
+      "characters": 101074
+    },
+    {
+      "doc_id": "Q1124",
+      "title": "Bill Clinton",
+      "approx_tokens": 23842,
+      "characters": 95370
+    },
+    {
+      "doc_id": "Q49104",
+      "title": "2006 Lebanon War",
+      "approx_tokens": 23767,
+      "characters": 95069
+    },
+    {
+      "doc_id": "Q392",
+      "title": "Bob Dylan",
+      "approx_tokens": 22258,
+      "characters": 89034
+    },
+    {
+      "doc_id": "Q7747",
+      "title": "Vladimir Putin",
+      "approx_tokens": 21421,
+      "characters": 85687
+    },
+    {
+      "doc_id": "Q2685",
+      "title": "Arnold Schwarzenegger",
+      "approx_tokens": 21041,
+      "characters": 84164
+    },
+    {
+      "doc_id": "Q1316",
+      "title": "Saddam Hussein",
+      "approx_tokens": 20589,
+      "characters": 82357
+    },
+    {
+      "doc_id": "Q2808",
+      "title": "Elton John",
+      "approx_tokens": 20509,
+      "characters": 82039
+    },
+    {
+      "doc_id": "Q6686",
+      "title": "Renault",
+      "approx_tokens": 19756,
+      "characters": 79027
+    }
+  ],
+  "samples": [
+    {
+      "doc_id": "Q303623",
+      "title": "Canoeing at the 2012 Summer Olympics – Men's K-2 1000 metres",
+      "approx_tokens": 704,
+      "text_preview": "[Infobox Olympic event]\n  event: Men's canoe sprint K-2 1,000 metres\n  games: 2012 Summer\n  venue: Eton Dorney\n  date: 6 to 8 August\n  competitors: 24\n  nations: 12\n  gold: Rudolf DombiRoland Kökény\n  goldNOC: HUN\n  silver: Fernando PimentaEmanuel Silva\n  silverNOC: POR\n  bronze: Martin HollsteinAndreas Ihle\n  bronzeNOC: GER\n  win_value: 3:09.646\n  prev: 2008\n  next: 2016\n\nThe men's canoe sprint K-2 1,000 metres competition at the 2012 Olympic Games in London took place between 6 and 8 August at"
+    },
+    {
+      "doc_id": "Q607635",
+      "title": "Speed skating at the 2010 Winter Olympics – Men's 5000 metres",
+      "approx_tokens": 483,
+      "text_preview": "[Infobox Olympic event]\n  event: Men's 5000 metres\n  games: 2010 Winter\n  venue: Richmond Olympic Oval\n  date: 13 February 2010\n  competitors: 28\n  nations: 16\n  win_value: 6:14.60 speed skating\n  longnames: yes\n  gold: Sven Kramer\n  goldNOC: NED\n  silver: Lee Seung-hoon\n  silverNOC: KOR\n  bronze: Ivan Skobrev\n  bronzeNOC: RUS\n  prev: 2006\n  next: 2014\n\nThe men's 5000 metres speed skating competition of the 2010 Winter Olympics in Vancouver was held at the Richmond Olympic Oval on 13 February 20"
+    },
+    {
+      "doc_id": "Q939000",
+      "title": "Cycling at the 2012 Summer Olympics – Women's road time trial",
+      "approx_tokens": 550,
+      "text_preview": "[Infobox Olympic event]\n  event: Women's road time trial\n  games: 2012 Summer\n  venue: London and Surrey\n  date: 1 August\n  competitors: 24\n  nations: 16\n  gold: Kristin Armstrong\n  goldNOC: USA\n  silver: Judith Arndt\n  silverNOC: GER\n  bronze: Olga Zabelinskaya\n  bronzeNOC: RUS\n  win_value: 37:34.82\n  prev: 2008\n  next: 2016\n\nThe women's road time trial, one of the cycling events at the 2012 Olympic Games in London, took place on 1 August in southwest London and Surrey. Kristin Armstrong of the"
+    },
+    {
+      "doc_id": "Q26233801",
+      "title": "Gymnastics at the 2016 Summer Olympics – Women's artistic individual all-around",
+      "approx_tokens": 1288,
+      "text_preview": "[Infobox Olympic event]\n  event: Women's artistic individual all-around\n  games: 2016 Summer\n  venue: Arena Olímpica do Rio\n  date: 11 August\n  competitors: 24\n  nations: 14\n  win_label: Winning total\n  win_value: 62.198 points\n  gold: Simone Biles\n  goldNOC: USA\n  silver: Aly Raisman\n  silverNOC: USA\n  bronze: Aliya Mustafina\n  bronzeNOC: RUS\n  prev: 2012\n  next: 2020\n\nThe women's artistic individual all-around competition at the 2016 Summer Olympics in Rio de Janeiro was held at the Arena Olím"
+    },
+    {
+      "doc_id": "Q743905",
+      "title": "Athletics at the 2008 Summer Olympics – Men's 110 metres hurdles",
+      "approx_tokens": 2764,
+      "text_preview": "[Infobox Olympic event]\n  event: Men's 110 metres hurdles\n  games: 2008 Summer\n  venue: Beijing National Stadium\n  dates: August 18 (heats)August 20 (semifinals)August 21 (final)\n  competitors: 43\n  nations: 33\n  gold: Dayron Robles\n  goldNOC: CUB\n  silver: David Payne\n  silverNOC: USA\n  bronze: David Oliver\n  bronzeNOC: USA\n  win_value: 12.93\n  prev: 2004\n  next: 2012\n\nThe men's 110 metres hurdles at the 2008 Summer Olympics took place on 18-21 August at the Beijing National Stadium. Forty-two "
+    }
+  ]
+}
