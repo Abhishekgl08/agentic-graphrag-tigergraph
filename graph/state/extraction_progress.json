@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-09-15T11:48:14.018574+00:00",
+  "status": "FAILED_RATE_LIMIT_429",
+  "model": "openai/gpt-oss-120b",
+  "dataset_id": "59aa1eeb-0c13-4f2c-9a11-b14f989cd14c",
+  "source_file": "C:\\Users\\HP\\Desktop\\agentic-graphrag\\agentic-graphrag-tigergraph\\data\\processed\\59aa1eeb-0c13-4f2c-9a11-b14f989cd14c\\chunks.jsonl",
+  "total_documents": 2951,
+  "total_chunks": 18080,
+  "completed_chunks": 943,
+  "remaining_chunks": 17137,
+  "current_document_id": "Q544359",
+  "current_document_index": 105,
+  "current_chunk_id": "Q544359_chunk_0005",
+  "current_chunk_global_index": 938,
+  "failed_chunk_attempts": 1,
+  "total_prompt_tokens": 161263,
+  "total_completion_tokens": 74368,
+  "total_tokens": 235631,
+  "total_entities_extracted": 172,
+  "total_relationships_extracted": 61,
+  "total_vertex_upserts": 249,
+  "total_edge_upserts": 310
+}

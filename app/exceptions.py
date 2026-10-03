@@ -24,3 +24,15 @@ class EmbeddingError(DatasetError):
 
 class IngestionConflictError(DatasetError):
     pass
+
+
+class GraphExtractionError(DatasetError):
+    pass
+
+
+class GroqQuotaError(GraphExtractionError):
+    pass
+
+
+class TigerGraphLoadError(GraphExtractionError):
+    """A validated extraction could not be durably loaded into TigerGraph."""

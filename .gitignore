@@ -1,25 +1,43 @@
 # Virtual environment
 .venv/
+venv/
+ENV/
 
 # Environment variables / API keys
 .env
+.env.local
+cred.txt
+text1.txt
+
+# Scratch, intermediate scripts & large data files
+scratch/
+scripts/
+graph/data/
+represents_*
+PRODUCTION_*
+TRADITIONAL_*
+agentic_graphrag_tigergraph_handoff.md
+*.tmp
+*.log
+*.csv
+*.jsonl
+
+# Re-include essential evaluation data JSONL files in data/
+!data/eval_hidden.jsonl
+!data/eval_hidden_predictions.jsonl
+!data/evaluation_questions.jsonl
 
 # Python cache
 __pycache__/
 *.py[cod]
 
-# VS Code
+# IDE & Editor files
 .vscode/
+.idea/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
 # Test/tool caches
 .pytest_cache/
 .mypy_cache/
@@ -31,3 +49,7 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db

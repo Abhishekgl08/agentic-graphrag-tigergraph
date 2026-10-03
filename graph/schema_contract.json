@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "entity_types": {
+    "Document": {"vertex_type": "Document", "mention_edge": null, "name_attribute": "title"},
+    "OlympicGames": {"vertex_type": "OlympicGames", "mention_edge": "MENTIONS_GAMES", "name_attribute": "name"},
+    "Event": {"vertex_type": "Event", "mention_edge": "MENTIONS_EVENT", "name_attribute": "name"},
+    "Athlete": {"vertex_type": "Athlete", "mention_edge": "MENTIONS_ATHLETE", "name_attribute": "name"},
+    "Country": {"vertex_type": "Country", "mention_edge": "MENTIONS_COUNTRY", "name_attribute": "name"},
+    "Venue": {"vertex_type": "Venue", "mention_edge": "MENTIONS_VENUE", "name_attribute": "name"},
+    "Sport": {"vertex_type": "Sport", "mention_edge": "MENTIONS_SPORT", "name_attribute": "name"}
+  },
+  "relationships": {
+    "PART_OF": {"source_type": "Event", "target_type": "OlympicGames"},
+    "SUB_EVENT_OF": {"source_type": "Event", "target_type": "Event"},
+    "AT_VENUE": {"source_type": "Event", "target_type": "Venue"},
+    "IN_SPORT": {"source_type": "Event", "target_type": "Sport"},
+    "WON_BY": {"source_type": "Event", "target_type": "Athlete", "attributes": {"medal": ["GOLD", "SILVER", "BRONZE"]}},
+    "REPRESENTS": {"source_type": "Athlete", "target_type": "Country"},
+    "PARTICIPATED_IN": {"source_type": "Athlete", "target_type": "Event"}
+  },
+  "provenance": {
+    "document_vertex": "Document",
+    "document_title_attribute": "title",
+    "chunk_vertex": "Chunk",
+    "chunk_text_attribute": "text",
+    "chunk_document_attribute": "document_id",
+    "document_chunk_edge": "HAS_CHUNK"
+  }
+}
